@@ -1,0 +1,28 @@
+{
+  "name": "my_app",
+  "version": "1.0.0",
+  "description": "file name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node app.js",
+    "dev": "nodemon app.js"
+  
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maryleen-Boyani/Express.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Maryleen-Boyani/Express.js/issues"
+  },
+  "homepage": "https://github.com/Maryleen-Boyani/Express.js#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.7.3",
+    "nodemon": "^3.1.7"
+  }
+}
