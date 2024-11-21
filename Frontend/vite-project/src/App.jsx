@@ -1,13 +1,14 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import CustomCard from "./components/classSlide";
 import theme from "../configs/colors";
+import FooterSection from "./components/FooterSection";
 export default function App() {
   return (
     <>
       <Container
         disableGutters
         maxWidth="xl"
-        sx={{ height: "100vh", margin: 0, bgcolor: theme.palette.primary.main }}
+        sx={{  margin: 0, bgcolor: theme.palette.primary.main }}
       >
         <Box
           sx={{
@@ -50,7 +51,7 @@ export default function App() {
             <Grid item xs={12} sm={6} md={4}>
               <CustomCard
                 title="ACS314A"
-                subtitle="Mobile Application Development"
+                subtitle="Mobile Application Development(Flutter)"
                 author="By Mr. Anthony Wambua"
                 buttonLabel="Join chat"
               />
@@ -135,6 +136,7 @@ export default function App() {
             buttonLabel="Join chat"
           />
         </Container> */}
+        <FooterSection/>
       </Container>
     </>
   );

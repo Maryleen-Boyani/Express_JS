@@ -10,16 +10,25 @@ import theme from "../../configs/colors";
 const CustomCard = ({ title, subtitle, author, buttonLabel }) => (
   <Card sx={{ maxWidth: 300 }}>
     <CardContent>
-      <Typography gutterBottom sx={{ color: "black", fontSize: 14 }}>
+      <Typography
+        variant="h5"
+        gutterBottom
+        textAlign={"center"}
+        sx={{ color: "black" }}
+      >
         {title}
       </Typography>
 
-      <Typography sx={{ color: theme.palette.primary.text }}>
+      <Typography
+        gutterBottom
+        textAlign={"center"}
+        variant="h6"
+        sx={{ color: theme.palette.primary.text }}
+      >
         {subtitle}
       </Typography>
-      <Typography variant="body2">
+      <Typography textAlign={"center"} variant="caption1">
         {author}
-        <br />
       </Typography>
     </CardContent>
     <CardActions
